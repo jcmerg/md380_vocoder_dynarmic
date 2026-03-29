@@ -41,7 +41,7 @@ set(DYNARMIC_TESTS OFF CACHE BOOL "")
 set(DYNARMIC_USE_ARMV7 ON CACHE BOOL "")
 FetchContent_Declare(
     dynarmic
-    GIT_REPOSITORY https://github.com/yuzu-mirror/dynarmic.git
+    GIT_REPOSITORY https://github.com/jcmerg/dynarmic.git
     GIT_TAG master
 )
 FetchContent_MakeAvailable(dynarmic)
